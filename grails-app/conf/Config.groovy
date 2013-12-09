@@ -65,6 +65,7 @@ environments {
     }
     production {
         grails.logging.jul.usebridge = false
+        grails.plugin.heroku.datasource. disableTimeoutAutoconfiguration = false
         // TODO: grails.serverURL = "http://www.changeme.com"
     }
 }
