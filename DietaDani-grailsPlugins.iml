@@ -47,6 +47,10 @@
       <sourceFolder url="file://$USER_HOME$/.grails/2.2.3/projects/DietaDani/plugins/resources-1.1.6/grails-app/i18n" isTestSource="false" />
       <sourceFolder url="file://$USER_HOME$/.grails/2.2.3/projects/DietaDani/plugins/resources-1.1.6/grails-app/taglib" isTestSource="false" />
     </content>
+    <content url="file://$USER_HOME$/.grails/2.2.3/projects/DietaDani/plugins/seed-me-0.2.0">
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.3/projects/DietaDani/plugins/seed-me-0.2.0/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.3/projects/DietaDani/plugins/seed-me-0.2.0/grails-app/services" isTestSource="false" />
+    </content>
     <content url="file://$USER_HOME$/.grails/2.2.3/projects/DietaDani/plugins/tomcat-2.2.3" />
     <content url="file://$USER_HOME$/.grails/2.2.3/projects/DietaDani/plugins/webxml-1.4.1">
       <sourceFolder url="file://$USER_HOME$/.grails/2.2.3/projects/DietaDani/plugins/webxml-1.4.1/src/groovy" isTestSource="false" />
@@ -58,6 +62,7 @@
       <library name="Grails User Library (DietaDani-grailsPlugins)">
         <CLASSES>
           <root url="jar://$USER_HOME$/.grails/ivy-cache/org.eclipse.jdt.core.compiler/ecj/jars/ecj-3.7.2.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/postgresql/postgresql/jars/postgresql-8.4-702.jdbc3.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

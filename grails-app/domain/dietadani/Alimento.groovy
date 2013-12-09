@@ -10,4 +10,6 @@ class Alimento {
         nome nullable:false
         calorias nullable:false
     }
+
+
 }
