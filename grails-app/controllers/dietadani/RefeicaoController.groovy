@@ -27,7 +27,7 @@ class RefeicaoController {
         }
 
         flash.message = message(code: 'default.created.message', args: [message(code: 'refeicao.label', default: 'Refeicao'), refeicaoInstance.id])
-        redirect(action: "show", id: refeicaoInstance.id)
+        redirect(uri: "/")
     }
 
     def show(Long id) {

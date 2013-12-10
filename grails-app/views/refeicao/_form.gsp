@@ -21,7 +21,7 @@
 		<g:message code="refeicao.alimentos.label" default="Alimentos" />
 		
 	</label>
-	<g:select name="alimentos" from="${dietadani.Alimento.list()}" multiple="multiple" optionKey="id" size="5" value="${refeicaoInstance?.alimentos*.id}" class="many-to-many"/>
+	<g:select name="alimentos" from="${dietadani.Alimento.list(sort: "nome")}" multiple="multiple" optionKey="id" size="5" value="${refeicaoInstance?.alimentos*.id}" class="many-to-many"/>
 </div>
 
 

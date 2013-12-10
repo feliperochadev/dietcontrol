@@ -11,5 +11,10 @@ class Alimento {
         calorias nullable:false
     }
 
+    String toString()
+    {
+        nome
+    }
+
 
 }

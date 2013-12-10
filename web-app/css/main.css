@@ -51,6 +51,23 @@ body {
 	background-color: #abbf78;
 }
 
+#grailsLogo ul {
+    padding:0px;
+    margin:0px;
+    list-style:none;
+}
+
+#grailsLogo ul li { display: inline; }
+
+#grailsLogo ul li h2 {
+    padding: 2px 10px;
+    display: inline-block;
+
+    /* visual do link */
+
+}
+
+
 /* replace with .no-boxshadow body if you have modernizr available */
 .ie6 body,
 .ie7 body,

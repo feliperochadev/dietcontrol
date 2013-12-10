@@ -83,11 +83,15 @@
 	<body>
     <div class="nav" role="navigation">
         <ul>
-            <li><a class="home" href="${createLink(uri: '/')}"><g:message code="home"/></a></li>
-            <li><g:link class="list" controller="alimento" action="list"><g:message code="alimentos" /></g:link></li>
+            <li><a class="home" href="${createLink(uri: '/')}"><g:message code="Principal"/></a></li>
+            <li><g:link class="create" controller="refeicao" action="create"><g:message code="Cadastrar Refeição" /></g:link></li>
+            <li><g:link class="list" controller="alimento" action="list"><g:message code="Alimentos" /></g:link></li>
         </ul>
     </div>
 		<a href="#page-body" class="skip"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
+        <g:if test="${flash.message}">
+            <div class="message" role="status">${flash.message}</div>
+        </g:if>
         <h2>TESTE!</h2>
 		</div>
 	</body>
