@@ -28,9 +28,6 @@
       <sourceFolder url="file://$USER_HOME$/.grails/2.2.3/projects/DietaDani/plugins/cache-1.0.1/grails-app/services" isTestSource="false" />
       <sourceFolder url="file://$USER_HOME$/.grails/2.2.3/projects/DietaDani/plugins/cache-1.0.1/grails-app/taglib" isTestSource="false" />
     </content>
-    <content url="file://$USER_HOME$/.grails/2.2.3/projects/DietaDani/plugins/cloud-support-1.0.8">
-      <sourceFolder url="file://$USER_HOME$/.grails/2.2.3/projects/DietaDani/plugins/cloud-support-1.0.8/src/groovy" isTestSource="false" />
-    </content>
     <content url="file://$USER_HOME$/.grails/2.2.3/projects/DietaDani/plugins/database-migration-1.3.2">
       <sourceFolder url="file://$USER_HOME$/.grails/2.2.3/projects/DietaDani/plugins/database-migration-1.3.2/src/groovy" isTestSource="false" />
       <sourceFolder url="file://$USER_HOME$/.grails/2.2.3/projects/DietaDani/plugins/database-migration-1.3.2/grails-app/controllers" isTestSource="false" />
@@ -40,10 +37,6 @@
       <sourceFolder url="file://$USER_HOME$/.grails/2.2.3/projects/DietaDani/plugins/database-session-1.1.2/grails-app/jobs" isTestSource="false" />
       <sourceFolder url="file://$USER_HOME$/.grails/2.2.3/projects/DietaDani/plugins/database-session-1.1.2/grails-app/domain" isTestSource="false" />
       <sourceFolder url="file://$USER_HOME$/.grails/2.2.3/projects/DietaDani/plugins/database-session-1.1.2/grails-app/services" isTestSource="false" />
-    </content>
-    <content url="file://$USER_HOME$/.grails/2.2.3/projects/DietaDani/plugins/heroku-1.0.1">
-      <sourceFolder url="file://$USER_HOME$/.grails/2.2.3/projects/DietaDani/plugins/heroku-1.0.1/src/groovy" isTestSource="false" />
-      <sourceFolder url="file://$USER_HOME$/.grails/2.2.3/projects/DietaDani/plugins/heroku-1.0.1/grails-app/taglib" isTestSource="false" />
     </content>
     <content url="file://$USER_HOME$/.grails/2.2.3/projects/DietaDani/plugins/hibernate-2.2.3">
       <sourceFolder url="file://$USER_HOME$/.grails/2.2.3/projects/DietaDani/plugins/hibernate-2.2.3/grails-app/i18n" isTestSource="false" />
