@@ -12,6 +12,7 @@
 			<ul>
 				<li><a class="home" href="${createLink(uri: '/')}"><g:message code="default.home.label"/></a></li>
                 <li><g:link class="list" controller="alimento" action="list"><g:message code="Alimentos" /></g:link></li>
+                <li><g:link class="create" controller="alimento" action="create"><g:message code="Cadastrar Alimento" args="[entityName]" /></g:link></li>
 			</ul>
 		</div>
 		<div id="create-refeicao" class="content scaffold-create" role="main">

@@ -62,6 +62,7 @@ body {
 #grailsLogo ul li h2 {
     padding: 2px 10px;
     display: inline-block;
+    font-size: 40px;
 
     /* visual do link */
 
@@ -136,6 +137,24 @@ img {
 
 .footer a {
 	color: #255b17;
+}
+
+.buttonAddAlimento{
+     margin-left: 20px;
+     background-image: url(../images/addAlimento.png);
+     width: 26px;
+ }
+
+
+.buttonRemoverAlimento{
+    margin-left: 20px;
+    background: url(../images/removeAlimento.png) no-repeat;
+    width: 22px;
+}
+
+.novoDivAlimento{
+    margin-left: 223px;
+    margin-top: 20px;
 }
 
 .spinner {
@@ -484,6 +503,11 @@ th.desc a {
 	background-image: url(../images/skin/sorted_desc.gif);
 }
 
+
+.odd2 {
+    background: #9cbf9b;
+}
+
 .odd {
 	background: #f7f7f7;
 }
@@ -492,8 +516,16 @@ th.desc a {
 	background: #ffffff;
 }
 
+.totalCalorias {
+    background: #f7f7f7;
+}
+
 th:hover, tr:hover {
 	background: #E1F2B6;
+}
+
+.linkTitulo{
+   color: #000000;
 }
 
 /* PAGINATION */

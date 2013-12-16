@@ -10,11 +10,6 @@ class RefeicaoController {
         redirect(action: "list", params: params)
     }
 
-    def list(Integer max) {
-        params.max = Math.min(max ?: 10, 100)
-        [refeicaoInstanceList: Refeicao.list(params), refeicaoInstanceTotal: Refeicao.count()]
-    }
-
     def create() {
         [refeicaoInstance: new Refeicao(params)]
     }
@@ -99,4 +94,18 @@ class RefeicaoController {
             redirect(action: "show", id: id)
         }
     }
+
+    def list(String data1) {
+       Date data = new Date().parse("yyyy/MM/dd", data1)
+        double totalCalorias = 0;
+        for ( refeicao in Refeicao.findAllByData(data) ) {
+            for (alimento in refeicao.alimentos)
+            {
+                totalCalorias = totalCalorias + alimento.calorias
+            }
+        }
+        [refeicaoInstanceList: Refeicao.findAllByData(data), refeicaoInstanceTotal: Refeicao.count(), totalCalorias: totalCalorias]
+    }
+
+
 }
