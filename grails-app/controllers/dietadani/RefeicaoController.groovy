@@ -80,18 +80,18 @@ class RefeicaoController {
         def refeicaoInstance = Refeicao.get(id)
         if (!refeicaoInstance) {
             flash.message = message(code: 'default.not.found.message', args: [message(code: 'refeicao.label', default: 'Refeicao'), id])
-            redirect(action: "list")
+            redirect(controller: "index", action: "index")
             return
         }
 
         try {
             refeicaoInstance.delete(flush: true)
             flash.message = message(code: 'default.deleted.message', args: [message(code: 'refeicao.label', default: 'Refeicao'), id])
-            redirect(action: "list")
+            redirect(controller: "index", action: "index")
         }
         catch (DataIntegrityViolationException e) {
             flash.message = message(code: 'default.not.deleted.message', args: [message(code: 'refeicao.label', default: 'Refeicao'), id])
-            redirect(action: "show", id: id)
+            redirect(controller: "index", action: "index")
         }
     }
 

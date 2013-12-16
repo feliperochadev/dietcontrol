@@ -10,7 +10,7 @@ class IndexController {
     static allowedMethods = [save: "POST", update: "POST", delete: "POST"]
 
     def index() {
-        def refeicoes = Refeicao.executeQuery("select r.data, count(distinct r.id) from Refeicao r group by r.data")
+        def refeicoes = Refeicao.executeQuery("select r.data, count(distinct r.id) from Refeicao r group by r.data order by r.data desc")
         def totalCaloriasList = []
         for (refeicao in refeicoes) {
             def totalCalorias = 0;
