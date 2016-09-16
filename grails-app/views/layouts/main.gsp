@@ -7,7 +7,7 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<title>Dieta da Dani</title>
+		<title>Gerenciador de Dieta em Grails</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
         <g:javascript library="jquery" />
 		<link rel="shortcut icon" href="${resource(dir: 'images', file: 'favicon.ico')}" type="image/x-icon">
@@ -26,7 +26,7 @@
                     <img src="${resource(dir: 'images', file: 'grails_logo.png')}" alt="Controle de Dieta"/>
                 </li>
                 <li>
-                    <h2>Dieta da Dani</h2>
+                    <h2>Gerenciador de Dieta em Grails</h2>
                 </li>
             </ul>
         </div>
